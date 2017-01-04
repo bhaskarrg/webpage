@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^jobsfun\.gbreddy\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jobsfun\.gbreddy\.com$
+RewriteRule ^/?$ "http\:\/\/jobsfun\.in" [R=301,L]
+
